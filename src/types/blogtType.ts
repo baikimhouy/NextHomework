@@ -1,5 +1,6 @@
 export type BlogType = {
-    id: number;
-    title: string;
-    body: string;
-}
+  id: string;
+  title: string;
+  body: string;
+  status?: "draft" | "published" | "archived"; // Optional if not always present
+};

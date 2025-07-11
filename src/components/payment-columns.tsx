@@ -1,11 +1,11 @@
-// app/(admin)/blog-dashboard/columns.tsx
+// src/components/payment-columns.tsx
 import { ColumnDef } from "@tanstack/react-table";
 
 import { ArrowUpDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Payment } from "@/types/paymentType";
 
-export const columns: ColumnDef<Payment>[] = [
+export const paymentColumns: ColumnDef<Payment>[] = [
   {
     accessorKey: "status",
     header: "Status",
